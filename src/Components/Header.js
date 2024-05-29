@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import './../styles/header.css';
+import React, { useEffect } from 'react';
+import './../Styles/Header.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import lottie from 'lottie-web';
-import animationData from '../assets/burger_menu.json';
-import Logo from './../assets/logo.png';
+import animationData from '../Assets/burger_menu.json';
 
 gsap.registerPlugin(ScrollTrigger);
 

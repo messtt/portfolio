@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import './../styles/presentation.css';
+import './../Styles/Presentation.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import pp from './../assets/Photo_profil_Corentin_Albertus.PNG';
+import pp from '../Assets/Photo_profil_Corentin_Albertus.PNG';
 
 gsap.registerPlugin(ScrollTrigger);
 function Presentation() {

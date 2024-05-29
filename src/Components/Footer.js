@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
-import './../styles/footer.css';
-import instagram_logo from './../assets/instagram-logo.png';
-import slack_logo from './../assets/slack-logo.png';
-import discord_logo from './../assets/discord.png';
-import github_logo from './../assets/github-logo.png';
+import './../Styles/Footer.css';
+import instagram_logo from '../Assets/instagram-logo.png';
+import slack_logo from '../Assets/slack-logo.png';
+import discord_logo from '../Assets/discord.png';
+import github_logo from '../Assets/github-logo.png';
 import { gsap } from 'gsap';
 
 gsap.registerPlugin();

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '../styles/cover.css';
+import '../Styles/Cover.css';
 import { gsap } from 'gsap';
 
 gsap.registerPlugin();

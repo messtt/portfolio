@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../styles/sectionSeparator.css';
+import '../Styles/SectionSeparator.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -11,9 +11,7 @@ function SectionSeparator() {
     }, []);
 
     return (
-        <div className="section_separator">
-
-        </div>
+        <div className="section_separator"></div>
     );
 }
 
